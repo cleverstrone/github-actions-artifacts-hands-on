@@ -25,7 +25,7 @@ jobs:
     steps:
     - uses: actions/download-artifact@v4
       with:
-        name: hello-artifact
+        name: artifacts
         path: ./artifacts
     - name: display file
       run: cat ./artifacts/hello.txt
